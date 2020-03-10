@@ -1,0 +1,54 @@
+html{
+    height: 100%;
+}
+body{
+    height:100%;
+}
+
+.i-ul{
+    list-style-type: none;
+    color: white;
+    margin-top: 3em;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+.i-ul li{
+    font-size: 25px;
+    border-bottom: 2px solid white;
+    height: 50px;
+    margin-top: 5px;
+}
+.i-ul li a{
+    margin-left: 50px;
+}
+
+.i-logo{
+    background-color: rgba(31, 29, 29, 0.774);
+}
+.i-copyr{
+    position:fixed;
+    bottom: 0;
+    z-index: 100;
+    color: white;
+    width: 100%;
+    font-size: 25px;
+}
+.i-hauteur{
+    background-color: rgba(31, 29, 29, 0.774);
+    height:100%;
+}
+
+.aside{
+    padding-left: 0;
+    padding-right: 0;
+    height: 100%;
+}
+.i-conteneur{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+}
+
+
+

@@ -1,23 +1,100 @@
-/* card liste */ 
 
-.btn-primary{
+body{
+    padding: 0%;
+    margin: 0%;
+   overflow: hidden;
+}
+.bg-dark {
+    background-color:black !important;
+}
+.i-conteneur{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+}
+
+ .i-taille{
+     width: auto;
+     height: auto;
+     background-color: rgba(0, 0, 0, 0.753);
+ }
+
+
+
+/*  cette classe permet le changement de la couleur en rouge lorsque on clique exemple sur apprenants */
+.list-group-item.active {
+    z-index: 2;
     color:white;
-    /* background-color: rgb(138, 14, 14); */
+    background-color: rgb(226, 15, 15) ;
+   
 }
-hr{
-    margin: 5px;
-    margin-left: 5px;
-    background-color: rgb(223, 33, 33);
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color:black;
+    border: 1px solid black;
+    color: white;
+  
 }
-.card-title{
-    margin-left: 5px;
+
+
+
+/* LES classe espacement sont utiliser pour l'ajustement des different  bloc du menu  */
+
+.i-espacement1{ /* ce espacement intervient sur  la bare de recherche et les menu*/
+    padding:0px;
+    height: 13%;
+    height: 710px;
 }
-.card{
-    margin-top: 10%;
-    margin-left: 20%;
-    background-color: rgb(233, 227, 227);
-    box-shadow: 20px;
+
+.i-espacement2{  /* ce espacement intervient sur le positionnement et ajustement  la bare de recherche */
+   
+    margin-top: 15%;
+    width: 85%;   
 }
-.card-body{
-    background-color:white;
+.i-espacement3{ /* ce espacement intervient sur les menu*/
+    padding-top: 40%;
+    text-align: center;
+}
+
+
+.i-conteneur{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+   
+}
+
+.i-copyr{
+    position:fixed;
+    bottom: 2%;
+    z-index: 100;
+    color: white;
+    padding-left: 3%;
+    
+    font-size: 25px;
+    overflow-x: auto;
+}
+  .i-navclass{
+      padding: 0;
+  }
+
+nav a{ 
+    border-bottom: 2px solid white;
+    font-size: 25px;
+    border-bottom: 2px solid white;
+    height: 50px;
+    margin-top: 5px;
+    text-decoration: aliceblue;
+}
+
+/* les classe qui vont suivre  permettrons le traitement de la section de droite  */
+.i-section{
+    background-color: rgb(68, 8, 138); 
+    width: 200px;
+    height: 300px;
+    color: rgb(104, 24, 24);
+
 }
