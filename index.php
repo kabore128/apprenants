@@ -96,14 +96,7 @@
     </div>            
 
 </body>
-<<<<<<< HEAD
-<script src="js/jquery-3.4.1.min.js"></script>
-<script src="js/script.js">
-<script src="js/bootstrap.min.js"></script>
-
-=======
 <script src="bootstrap.min.js"></script>
->>>>>>> master
 
 </html>            
               
