@@ -18,7 +18,7 @@
                           <div class="col-md-8">
                             <div class="card-body">
                               <h5 class="card-title">Nom:</h5> <hr>
-                              <h5 class="card-title">Prénom:</h5> <hr>
+                              <h5 class="card-title">Prï¿½nom:</h5> <hr>
                               <h5 class="card-title">Ville:</h5> <hr>
                               <h5 class="card-title">Formation:</h5> <hr>
                               <h5 class="card-title">Etablissement:</h5> <hr>
@@ -29,4 +29,5 @@
                         </div>
                       </div>
 </body>
+<?php echo "Ã§a va" ?>
 </html>

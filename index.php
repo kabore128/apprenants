@@ -22,10 +22,10 @@
                 <aside class=" col-lg-2 bg-dark border border-light aside  i-taille i-espacement1 "   >
                 <div  class=" bg-dark"> <img src="" alt=""> <h2>Logo simplon </h2> </div>
 
-                          <div  class="d-flex justify-content-center">    <input type="search" class="i-espacement2" placeholder="   recherche..."></div>  
+                          <div  class="d-flex justify-content-center">    <input type="search" id="rech" class="i-espacement2" placeholder="   recherche..."></div>  
                      
                            <div  class="i-espacement3">
-                               <nav class=" i-navclass list-group bg-light id="list-tab" role="tablist"">
+                               <nav class=" i-navclass list-group bg-light" id="list-tab" role="tablist">
                                     
                                      <a class=" list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="index.php?page=enregistrement" role="tab" aria-controls="ajouter" class="i-color">Ajouter</a>   
                                      <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"  href="index.php?page=list" role="tab" aria-controls="apprenants">Apprenants</a>    
@@ -56,11 +56,12 @@
                         
             </div>             
     </div>            
-
+</div>
 </body>
-<script src="js/bootstrap.min.js"></script>
 <script src="js/jquery-3.4.1.min.js"></script>
-
+<script src="js/bootstrap.min.js"></script>
+<script src="js/Jsearch.js"></script>
+    <script src="js/script.js"></script>
 </html>            
               
                   
