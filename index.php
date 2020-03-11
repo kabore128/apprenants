@@ -13,13 +13,13 @@
   
 </head>
 <body   bg-dark>
-    <div class="container-lg" class="i-conteneur"   class="i-taille" >   
+    <div class="container-lg container-md" class="i-conteneur"   class="i-taille" >   
             
          <div  class=" bg-dark"> <img src="" alt="">  </div>
                  
             <div class="row"  >
            
-                <aside class=" col-lg-2 bg-dark border border-light aside  i-taille i-espacement1 "   >
+                <aside class=" col-lg-2  col-md-2 bg-dark border border-light aside  i-taille i-espacement1 "   >
                 <div  class=" bg-dark"> <img src="" alt=""> <h2>Logo simplon </h2> </div>
 
                           <div  class="d-flex justify-content-center">    <input type="search" class="i-espacement2" placeholder="   recherche..."></div>  
@@ -40,7 +40,7 @@
 
                  </aside>      
                
-                 <div class=" col-lg-10 bg-light border border-light  " >
+                 <div class=" col-md-10 col-lg-10 bg-light border border-light  " >
                  <?php 
         if(isset($_GET["page"])){
             switch($_GET["page"]){
@@ -58,8 +58,10 @@
     </div>            
 
 </body>
-<script src="js/bootstrap.min.js"></script>
 <script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/script.js">
+<script src="js/bootstrap.min.js"></script>
+
 
 </html>            
               
