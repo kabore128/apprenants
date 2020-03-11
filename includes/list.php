@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="../style/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="../style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="liste.css" />
     <script src="main.js"></script>
 </head>
 <body>
@@ -18,7 +18,7 @@
                           <div class="col-md-8">
                             <div class="card-body">
                               <h5 class="card-title">Nom:</h5> <hr>
-                              <h5 class="card-title">Prï¿½nom:</h5> <hr>
+                              <h5 class="card-title">Prénom:</h5> <hr>
                               <h5 class="card-title">Ville:</h5> <hr>
                               <h5 class="card-title">Formation:</h5> <hr>
                               <h5 class="card-title">Etablissement:</h5> <hr>
