@@ -13,7 +13,7 @@
   
 </head>
 <body   bg-dark>
-    <div class="container-lg" class="i-conteneur"   class="i-taille" >   
+    <div class="container-fluid" class="i-conteneur"   class="i-taille" >   
             
          <div  class=" bg-dark"> <img src="" alt="">  </div>
                  
@@ -27,9 +27,9 @@
                            <div  class="i-espacement3">
                                <nav class=" i-navclass list-group bg-light" id="list-tab" role="tablist">
                                     
-                                     <a class=" list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="index.php?page=enregistrement" role="tab" aria-controls="ajouter" class="i-color">Ajouter</a>   
-                                     <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"  href="index.php?page=list" role="tab" aria-controls="apprenants">Apprenants</a>    
-                                     <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#Imprimer" role="tab" aria-controls="imprimer">Imprimer</a>     
+                                     <a class=" list-group-item list-group-item-action active" id="list-home-list"  href="index.php?page=enregistrement" role="tab" aria-controls="ajouter" class="i-color">Ajouter</a>   
+                                     <a class="list-group-item list-group-item-action" id="list-profile-list"   href="index.php?page=list" role="tab" aria-controls="apprenants">Apprenants</a>    
+                                     <a class="list-group-item list-group-item-action" id="list-messages-list"  href="#Imprimer" role="tab" aria-controls="imprimer">Imprimer</a>     
                            
                               </nav>
                                        
