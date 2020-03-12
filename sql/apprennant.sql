@@ -9,12 +9,23 @@ drop table if exists Apprenant;
 drop table if exists tuteur;
 
 /*==============================================================*/
+/* Table: tuteur                                                */
+/*==============================================================*/
+create table tuteur
+(
+   telephone              varchar(255),
+   nom                    varchar(255),
+   prenom                 varchar(255),
+   domicile               varchar(255),
+   primary key (telephone)
+);
+/*==============================================================*/
 /* Table: Apprenant                                             */
 /*==============================================================*/
 create table Apprenant
 (
    rang                 int not null,
-   tut_rang             int not null,
+   tel_tuteur           varchar(255),
    nom                  varchar(255),
    prenom               varchar(255),
    date_de_naissance    varchar(255),
@@ -23,22 +34,10 @@ create table Apprenant
    contact              varchar(255),
    photo                varchar(255),
    primary key (rang),
-   key AK_Identifier_1 (rang)
+   key AK_Identifier_1 (tel_tuteur)
 );
 
-/*==============================================================*/
-/* Table: tuteur                                                */
-/*==============================================================*/
-create table tuteur
-(
-   nom                  varchar(255),
-   prenom               varchar(255),
-   contact              varchar(255),
-   domicile             varchar(255),
-   rang                 int not null,
-   primary key (rang)
-);
 
-alter table Apprenant add constraint FK_Association_1 foreign key (tut_rang)
-      references tuteur (rang) on delete restrict on update restrict;
+alter table Apprenant add constraint FK_Association_1 foreign key (tel_tuteur)
+      references tuteur (telephone) on delete restrict on update restrict;
 
